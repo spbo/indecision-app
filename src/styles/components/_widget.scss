@@ -1,0 +1,39 @@
+// Widget
+.widget {
+  background: $light-blue;
+  margin-bottom: $xl-size;
+}
+
+.widget__message {
+  border-bottom: 1px solid lighten($light-blue, 10%);
+  color: $off-white;
+  margin: 0;
+  padding: $l-size;
+  text-align: center;
+}
+
+// Widget Header
+.widget__widget-header {
+  background: $blue;
+  color: $off-white;
+  display: flex;
+  justify-content: space-between;
+  padding: $m-size;
+}
+
+.widget__widget-header__title {
+  margin: 0;
+}
+
+
+// .widget-header {
+//   background-color: $dark-blue-lighter;
+//   color: $off-white;
+//   display: flex;
+//   justify-content: space-between;
+//   padding: $m-size;
+  
+//   &__title {
+//    margin: 0;
+//   }
+//  }
