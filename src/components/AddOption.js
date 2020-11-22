@@ -10,8 +10,7 @@ export default class AddOption extends React.Component {
     const error = this.props.handleAddOption(option);
 
     this.setState(() => ({
-      error  // if a property has the same name as the value, we can use just the name
-      // so is the same as: return {name: 'sp', error: error, age: 30}
+      error}
     }));
 
     if (!error) {
